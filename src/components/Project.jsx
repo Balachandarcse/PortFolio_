@@ -7,7 +7,7 @@ import HealthInsurance from '../assets/healthInsurance.png';
 import Xylophone from '../assets/Xylophone.jpg'
 import MarioJuicy from '../assets/Mario.png'
 import AiExplorer from '../assets/AI-Explorer.png'
-import ChatbotDevOps from '../assets/Chatbot.png'
+import ChatbotDevOps from '../assets/chatbot.jpg'
 const projectData = { 
   'Mobile App Development': [
     {
