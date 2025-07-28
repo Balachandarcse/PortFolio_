@@ -8,7 +8,7 @@ import Xylophone from '../assets/Xylophone.jpg'
 import MarioJuicy from '../assets/Mario.png'
 import AiExplorer from '../assets/AI-Explorer.png'
 import ChatbotDevOps from '../assets/Chatbot.png'
-const projectData = {
+const projectData = { 
   'Mobile App Development': [
     {
       title: 'BMI Calculator (Flutter)',
