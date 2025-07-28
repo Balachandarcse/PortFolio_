@@ -1,0 +1,159 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  animation: fadeInUp 1.5s ease-in-out;
+  background: linear-gradient(to right, #1a1a1a, #333);
+  color: white;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: float 3s ease-in-out infinite;
+}
+
+.image img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.image img:hover {
+  transform: scale(1.05);
+}
+
+.intro {
+  flex: 2;
+  padding-left: 30px;
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out forwards;
+}
+
+.intro h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.intro h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.intro p {
+  font-size: 1.25rem;
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+/* Button Group */
+.btn-group {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* General Button Style */
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #80dfff;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #66ccff;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Resume Button Style */
+.btn-resume {
+  background-color: #ffcc00;
+  color: #1a1a1a;
+}
+
+.btn-resume:hover {
+  background-color: #e6b800;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image {
+    order: 2;
+    margin-top: 20px;
+  }
+
+  .image img {
+    max-width: 300px;
+    border-radius: 30px;
+  }
+
+  .intro {
+    padding-left: 0;
+  }
+
+  .intro h1 {
+    font-size: 2.5rem;
+  }
+
+  .intro h2 {
+    font-size: 1.75rem;
+  }
+
+  .intro p {
+    font-size: 1rem;
+  }
+
+  .btn-group {
+    justify-content: center;
+  }
+}
