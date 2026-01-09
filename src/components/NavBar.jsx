@@ -23,6 +23,7 @@ const NavBar=()=>{
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#contact-me">Contact Me</a></li>
+            <li><a href="#certifications">Certificates</a></li>
             <li>
               <a href="https://github.com/Balachandarcse" target="_blank" rel="noreferrer">
                 <FaGithub />

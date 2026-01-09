@@ -5,6 +5,7 @@ import Home from './components/Home'
 import NavBar from './components/NavBar'
 import Projects from './components/Project'
 import Skills from './components/Skills'
+import Certifications from './components/Certifications'
 
 function App() {
 
@@ -12,8 +13,9 @@ function App() {
     <>
       <NavBar/>
       <Home/>
-      <Skills/>
       <Projects/>
+      <Skills/>
+      <Certifications/>
       <About/>
       <Contact/>
     </>
