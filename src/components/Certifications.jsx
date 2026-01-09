@@ -26,7 +26,7 @@ import codelee from '../assets/Certificates/competitions/CodeLee.jpeg'
 import creatathon from '../assets/Certificates/competitions/Creatathon.jpeg'
 import flipkart from '../assets/Certificates/competitions/Flipkart_grid.jpeg'
 import django from '../assets/Certificates/competitions/Django.jpeg'
-import java_leap from '../assets/Certificates/competitions/java_leap.jpeg'
+import java_leap from '../assets/Certificates/competitions/Java_leap.jpeg'
 import navikshaa from '../assets/Certificates/competitions/navikshaa.jpeg'
 const certificateData = {
   'InternShips': [
