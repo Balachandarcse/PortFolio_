@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 import './Project.css';
 //development
 import flutter from '../assets/Certificates/development/Flutter.png'
-import hackerRank_b from '../assets/Certificates/development/hackerRank(basics).png'
-import hackerRank_i from '../assets/Certificates/development/hackerRank(intermediate).png'
-import infosys_MERN from '../assets/Certificates/development/infosys_MERN.png'
+import hackerRank_b from '../assets/Certificates/development/hackerRank_basics.png'
+import hackerRank_i from '../assets/Certificates/development/hackerRank_intermediate.png'
+import infosys_MERN from '../assets/Certificates/development/Infosys_MERN.png'
 import infosys_mongodb from '../assets/Certificates/development/infosys_mongodb.png'
 import infosys_react from '../assets/Certificates/development/infosys_React.png'
 import networking_basics from '../assets/Certificates/development/networking_basics.png'
 //DSA certificates
 import algoComp from '../assets/Certificates/DSA/Algo_competitive.png'
 import algoTC from '../assets/Certificates/DSA/Algo_TC.png'
-import javaSK from '../assets/Certificates/DSA/java(skillrack).jpg'
+import javaSK from '../assets/Certificates/DSA/java_skillrack.jpg'
 import NPTEL_cpp from '../assets/Certificates/DSA/NPTEL_cpp.png'
 import NPTEL_java from '../assets/Certificates/DSA/NPTEL_java.png'
 import udemy_c from '../assets/Certificates/DSA/udemy_c.png'
