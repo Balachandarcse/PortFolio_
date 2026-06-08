@@ -1,13 +1,13 @@
 import React from "react";
 import "./Home.css";
-import img3 from "../assets/img3.png"; 
+import img from "../assets/img.jpg"; 
 import resumePDF from "../assets/23CS029_Balachandar B.pdf";
 const Home=()=>{
   return (
     <section className="hero" id="hero">
       <div className="content">
         <div className="image">
-          <img src={img3} alt="Balachandar" />
+          <img src={img} alt="Balachandar" />
         </div>
         <div className="intro">
           <h1>Hi!</h1>
