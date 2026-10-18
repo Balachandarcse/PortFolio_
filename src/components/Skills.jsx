@@ -61,7 +61,6 @@ const Skills = () => {
                   <img src={skill.img} alt={skill.name} />
                   <p>
                     {skill.name}
-                    {skill.level && <><br />({skill.level})</>}
                   </p>
                 </div>
               ))}
